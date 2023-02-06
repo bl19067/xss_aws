@@ -19,11 +19,11 @@ xss_str{}という文字列を見つけてメモしておく(ポストテスト�
 </li>
 </br>
 
-<a href="http://18.183.207.65/xss-learning/test1_req.php"><h2>test1</h2></a>
+<a href="http://18.183.207.65/xss_aws/test1_req.php"><h2>test1</h2></a>
 <br>
-<a href="http://18.183.207.65/xss-learning/test2_req.php"><h2>test2</h2></a>
+<a href="http://18.183.207.65/xss_aws/test2_req.php"><h2>test2</h2></a>
 <br>
-<a href="http://18.183.207.65/xss-learning/test3_req.php"><h2>test3</h2></a>
+<a href="http://18.183.207.65/xss_aws/test3_req.php"><h2>test3</h2></a>
 <br>
-<a href="http://18.183.207.65/xss-learning/test4_req.php"><h2>test4</h2></a>
+<a href="http://18.183.207.65/xss_aws/test4_req.php"><h2>test4</h2></a>
 <br>
