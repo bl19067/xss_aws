@@ -1,7 +1,7 @@
 <!doctype html>
 
 
-    <form method="POST" action="./xss_test1.php">
+    <form method="POST" action="./xss_output.php">
    
     
        <input type="text" name="name"/>

@@ -38,4 +38,4 @@ if($data == "<script>alert('1')</script>" || $data == "<script>alert('0')</scrip
 ?> 
 
 <br>
-<a href="http://18.183.207.65/xss-learning">問題選択へ戻る</a>
+<a href="http://18.183.207.65/xss-learning/start.php">問題選択へ戻る</a>

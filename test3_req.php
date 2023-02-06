@@ -13,3 +13,5 @@ window.location.href=
        <input type="text" name="data" size="50" placeholder="ここに指定したサイトに飛ばすスクリプトを入れる">
        <input type="submit" value="送り付ける"/>
 </form>
+<br>
+<a href="http://18.183.207.65/xss-learning/start.php"><h2>戻る</h2></a>

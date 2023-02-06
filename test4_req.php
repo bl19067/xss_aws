@@ -7,5 +7,7 @@
        <input type="text" name="data"/>
        <input type="submit" value="送信"/>
    </form>
+   <br>
+<a href="http://18.183.207.65/xss-learning/start.php"><h2>戻る</h2></a>
 </body>
 </html>
