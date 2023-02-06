@@ -9,5 +9,5 @@
    </form>
 </body>
 <br>
-<a href="http://18.183.207.65/xss-learning/start.php"><h2>戻る</h2></a>
+<a href="http://18.183.207.65/xss_aws/start.php"><h2>戻る</h2></a>
 </html>

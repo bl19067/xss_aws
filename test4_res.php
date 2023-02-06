@@ -40,6 +40,6 @@ if ($data==$a || $data==$b || $data==$c || $data==$d || $data==$e || $data==$f |
 ?>
 
 <br>
-<a href="http://18.183.207.65/xss-learning/start.php">問題選択へ戻る</a>
+<a href="http://18.183.207.65/xss_aws/start.php">問題選択へ戻る</a>
 
 
