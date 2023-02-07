@@ -1,12 +1,15 @@
 <!doctype html>
 
 悪意のあるサイトへ誘導するURLを送り付けて機密情報を読み取ることができるみたいだ....</br>
-<br>
-URLを暗号化して気付かれないようにしてくる場合が多い。<br>
+※別のサイトはwindow.location.href=""; で指定のサイトに飛ばせるようだ<br>
 
-指定したサイト:https://x.gd/h0ivn
+<h4>指定したサイト:https://x.gd/h0ivn </h4>
+<br>※URLを暗号化して気付かれないようにしてくる場合が多い。<br>
+
+
 <br>
-window.location.href=
+    <img src="./images/alert_example.png" alt="script例">
+    <br>
 
 <form method="POST" action="./test3_res.php">
 		
