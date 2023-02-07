@@ -31,7 +31,7 @@ if($data == "<script>alert('1')</script>" || $data == "<script>alert('0')</scrip
 } else {
 	echo "Wrong....";
 	echo "<br>";
-	echo '<a href="http://localhost:8080/testprogram/test3_req.php">やり直す</a>';
+	echo '<a href="http://18.183.207.65/xss_aws/test3_req.php">やり直す</a>';
     
 }
 

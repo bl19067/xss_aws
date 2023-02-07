@@ -35,7 +35,7 @@ if ($data==$a || $data==$b || $data==$c || $data==$d || $data==$e || $data==$f |
 	echo "xss_str{a29yZWRlZmlzaGluZ3NpdGV3b291eW9kZWtpcnVuZQ}";
 	
 }else{
-	echo '<a href="http://localhost:8080/testprogram/test4_req.php">やり直す</a>';
+	echo '<a href="http://18.183.207.65/xss_aws/test4_req.php">やり直す</a>';
 }
 ?>
 

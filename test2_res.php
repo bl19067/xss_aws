@@ -29,7 +29,7 @@ if(!array_key_exists ("data", $_POST) || $_POST['data'] == NULL || $_POST['data'
 	else{
 		echo "Wrong....";
 		echo "<br>";
-		echo '<a href="http://localhost:8080/testprogram/test3_req.php">やり直す</a>';
+		echo '<a href="http://18.183.207.65/xss_aws/test3_req.php">やり直す</a>';
 	}
 	?>
 
