@@ -1,6 +1,9 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
 <?php
-
-
 if(!array_key_exists ("data", $_POST) || $_POST['data'] == NULL || $_POST['data'] == ''){
 
  $isempty = true;
@@ -39,3 +42,4 @@ if($data == "<script>alert('1')</script>" || $data == "<script>alert('0')</scrip
 
 <br>
 <a href="http://13.231.108.14/xss_aws/start.php">問題選択へ戻る</a>
+</html>

@@ -1,9 +1,10 @@
-
 <!doctype html>
-
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
     <p3>このWebフォームには脆弱性があるみたい...</p3></br>
     <p3>'0'か'1'が表示される任意スクリプトを実行すると...</p3>
-
     <br>
     <h3>埋め込む文字は('0'),("0"),('1'),("1")に統一する.</h3>
     <br>
@@ -15,6 +16,5 @@
    </form>
 </body>
 <br>
-<a href="http://13.231.108.14/xss_aws/start.php"><h2>戻る</h2></a>
+<a href="http://18.181.193.86/xss_aws/start.php">戻る</a>
 </html>
-
