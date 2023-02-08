@@ -24,15 +24,23 @@ $a='<SCRIPT>alert("0")</script>';
 $b='<SCRIPT>alert("1")</script>';
 $c='<scr<script>ipt>alert("0")</script>';
 $d='<scr<script>ipt>alert("1")</script>';
-$d="<SCRIPT>alert('0')</script>";
+$e="<SCRIPT>alert('0')</script>";
 $f="<SCRIPT>alert('1')</script>";
 $g="<scr<script>ipt>alert('0')</script>";
 $h="<scr<script>ipt>alert('1')</script>";
 
-if ($data==$a || $data==$b || $data==$c || $data==$d || $data==$e || $data==$f || $data==$g || $data==$h){
+$hante=$data==$a || $data==$b || $data==$c || $data==$d || $data==$e || $data==$f || $data==$g || $data==$h;
+if (!strlen($_POST["data"])){
+	echo "Wrong...";
+	echo "<br>";
+	
+	echo '<a href="http://18.183.207.65/xss_aws/test4_req.php">やり直す</a>';
+	
+}else if ($hante){
 	echo "correct!!";
 	echo "<br>";
 	echo "xss_str{a29yZWRlZmlzaGluZ3NpdGV3b291eW9kZWtpcnVuZQ}";
+	
 	
 }else{
 	echo '<a href="http://18.183.207.65/xss_aws/test4_req.php">やり直す</a>';
