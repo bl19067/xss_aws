@@ -33,4 +33,4 @@ if(!array_key_exists ("data", $_POST) || $_POST['data'] == NULL || $_POST['data'
 ?>
 
 <br>
-<a href="13.231.108.14/xss-learning/start.php">問題選択へ戻る</a>
+<a href="http://13.231.108.14/xss-learning/start.php">問題選択へ戻る</a>

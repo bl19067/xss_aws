@@ -34,7 +34,7 @@ if (!strlen($_POST["data"])){
 	echo "Wrong...";
 	echo "<br>";
 	
-	echo '<a href="13.231.108.14/xss_aws/test4_req.php">やり直す</a>';
+	echo '<a href="http://13.231.108.14/xss_aws/test4_req.php">やり直す</a>';
 	
 }else if ($hante){
 	echo "correct!!";
@@ -43,11 +43,11 @@ if (!strlen($_POST["data"])){
 	
 	
 }else{
-	echo '<a href="13.231.108.14/xss_aws/test4_req.php">やり直す</a>';
+	echo '<a href="http://13.231.108.14/xss_aws/test4_req.php">やり直す</a>';
 }
 ?>
 
 <br>
-<a href="13.231.108.14/xss_aws/start.php">問題選択へ戻る</a>
+<a href="http://13.231.108.14/xss_aws/start.php">問題選択へ戻る</a>
 
 

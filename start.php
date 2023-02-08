@@ -21,11 +21,11 @@ test1~test4までの問題はXSSの脆弱性を利用したスクリプトを実
 #回答時間は20分程度で終わったらアンケートを実施.
 </br>
 
-<a href="13.231.108.14/xss_aws/test1_req.php"><h2>test1</h2></a>
+<a href="http://13.231.108.14/xss_aws/test1_req.php"><h2>test1</h2></a>
 <br>
-<a href="13.231.108.14/xss_aws/test2_req.php"><h2>test2</h2></a>
+<a href="http://13.231.108.14/xss_aws/test2_req.php"><h2>test2</h2></a>
 <br>
-<a href="13.231.108.14/xss_aws/test3_req.php"><h2>test3</h2></a>
+<a href="http://13.231.108.14/xss_aws/test3_req.php"><h2>test3</h2></a>
 <br>
-<a href="13.231.108.14/xss_aws/test4_req.php"><h2>test4</h2></a>
+<a href="http://13.231.108.14/xss_aws/test4_req.php"><h2>test4</h2></a>
 <br>
