@@ -17,4 +17,4 @@
        <input type="submit" value="送り付ける"/>
 </form>
 <br>
-<a href="http://x.gd/uxFJp/xss_aws/start.php"><h2>戻る</h2></a>
+<a href="13.231.108.14/xss_aws/start.php"><h2>戻る</h2></a>
