@@ -1,9 +1,9 @@
 <!doctype html>
 <meta charset="UTF-8">
 悪意のあるサイトへ誘導するURLを送り付けて機密情報を読み取ることができるみたいだ....</br>
-※別のサイトはwindow.location.href='' で指定のサイトに飛ばせるようだ<br>
+※別のサイトはwindow.location.href='指定のURL' で指定のサイトに飛ばせるようだ<br>
 
-<h4>指定したサイト:'./xss_aws/aaaaaaaaaaaaaaaaaaaaaaaaa.php'</h4>
+<h4>指定したサイトのURL:' ./xss_aws/aaaaaaaaaaaaaaaaaaaaaaaaa.php '</h4>
 
 
 <br>
