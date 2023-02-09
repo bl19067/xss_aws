@@ -23,7 +23,7 @@ if(!array_key_exists ("data", $_POST) || $_POST['data'] == NULL || $_POST['data'
 
 	$data = $_POST['data'];
 
-	if($data == "<script>windows.location.href='https://x.gd/h0ivn'</script>"){
+	if($data == "<script>window.location.href='http://localhost:8080/xss_aws/start.php';</script>"){
 		echo '悪意のあるサイトに飛ばせたようだ...<br>';
 		#aws上に偽サイトを作っておく
 		echo "xss_str{a29yZWRlZmlzaGluZ3NpdGV3b291eW9kZWtpcnVuZQ}";
@@ -32,7 +32,7 @@ if(!array_key_exists ("data", $_POST) || $_POST['data'] == NULL || $_POST['data'
 	else{
 		echo 'Wrong...';
 		echo '<br>';
-		echo '<a href="18.181.193.86/xss_aws/test3_req.php">やり直す</a>';
+		echo '<a href="http://18.181.193.86/xss_aws/test3_req.php">やり直す</a>';
 	}
 	
 ?>
