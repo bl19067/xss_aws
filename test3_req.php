@@ -1,7 +1,7 @@
 <!doctype html>
 <meta charset="UTF-8">
 悪意のあるサイトへ誘導するURLを送り付けて機密情報を読み取ることができるみたいだ....</br>
-※別のサイトはwindow.location.href=""; で指定のサイトに飛ばせるようだ<br>
+※別のサイトはwindow.location.href='' で指定のサイトに飛ばせるようだ<br>
 
 <h4>指定したサイト:https://x.gd/h0ivn </h4>
 <br>※URLを暗号化して気付かれないようにしてくる場合が多い。<br>
@@ -16,4 +16,4 @@
        <input type="submit" value="送り付ける"/>
 </form>
 <br>
-<a href="http://13.231.108.14/xss_aws/start.php">戻る</a>
+<a href="http://18.181.193.86/xss_aws/start.php">戻る</a>

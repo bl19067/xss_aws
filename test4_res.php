@@ -39,7 +39,7 @@ if (!strlen($_POST["data"])){
 	echo "Wrong...";
 	echo "<br>";
 	
-	echo '<a href="http://13.231.108.14/xss_aws/test4_req.php">やり直す</a>';
+	echo '<a href="http://18.181.193.86/xss_aws/test4_req.php">やり直す</a>';
 	
 }else if ($hante){
 	echo "correct!!";

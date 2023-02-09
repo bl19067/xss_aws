@@ -23,7 +23,7 @@ if(!array_key_exists ("data", $_POST) || $_POST['data'] == NULL || $_POST['data'
 
 	$data = $_POST['data'];
 
-	if($data == "<script>windows.location.href='https://x.gd/h0ivn';</script>"){
+	if($data == "<script>windows.location.href='https://x.gd/h0ivn'</script>"){
 		echo '悪意のあるサイトに飛ばせたようだ...<br>';
 		#aws上に偽サイトを作っておく
 		echo "xss_str{a29yZWRlZmlzaGluZ3NpdGV3b291eW9kZWtpcnVuZQ}";
