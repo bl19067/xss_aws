@@ -1,20 +1,29 @@
 <!doctype html>
-<h2>クラウド環境</h2>
+<h1>クラウド環境の学習システムの概要</h1>
+<div style="padding: 5px;"></div>
+<li>脆弱な作りになっているやられサーバ</li>
+<div style="padding: 5px;"></div>
+<li>実際に指定したスクリプトを実行してもらう</li>
+<div style="padding: 5px;"></div>
+<li>XSSを利用した攻撃パターンを理解してもらう</li>
 <br>
+
+正解文字列xss_str{~~~}をコピーしてgoogle formに回答する
+
 <p1>Googleフォームでポストテストを実施.</p1>
 <br>
 <p1>選択問題を解いたらここの問題を解く.</p1>
 <div style="padding: 15px;"></div>
-<h3>問題について以下の項目を読んでおく</h3><br>
+<h3>問題のルールについて</h3><br>
 <li>
 test1~test4までの問題はXSSの脆弱性を利用したスクリプトを実行する.
 </li>
-</br>
 <div style="padding: 5px;"></div>
-
-<li>求められているXSSが成功したら、xss_str{}という文字列が表示される.</li>
-<li>xss_str{}という文字列を見つけてメモしておく<h2>(xss_str{}全てをコピーしてQ6以降のポストテストの回答欄にペーストする).</h2></li>
-<li>埋め込む文字は('0'),("0"),('1'),("1")に統一する.</li>
+<li>適切なスクリプトを実行し、XSSが成功したら、xss_str{}という文字列が表示される.</li>
+<div style="padding: 5px;"></div>
+<li>xss_str{}という文字列を見つけてメモしておく<h2>(正解文字列 xss_str{~~~}をgoogle formの回答欄にコピペ.)</li>
+<img src="./images/example.png"><br>
+<li>test1とtest4に埋め込む文字は('0')or("0")or('1')or("1")に統一する.</li>
 <div style="padding: 5px;"></div>
 </br>
 
