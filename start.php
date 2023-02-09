@@ -23,7 +23,7 @@ test1~test4までの問題はXSSの脆弱性を利用したスクリプトを実
 <div style="padding: 5px;"></div>
 <li>xss_str{}という文字列を見つけてメモしておく<h2>(正解文字列 xss_str{~~~}をgoogle formの回答欄にコピペ.)</li>
 <img src="./images/example.png"><br>
-<li>test1とtest4に埋め込む文字は('0')or("0")or('1')or("1")に統一する.</li>
+<li>test1とtest4に埋め込む文字は('0')あるいは('1')に統一する.</li>
 <div style="padding: 5px;"></div>
 </br>
 

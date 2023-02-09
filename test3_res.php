@@ -3,28 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 	</head>
-<?php
-if(!array_key_exists ("data", $_POST) || $_POST['data'] == NULL || $_POST['data'] == ''){
 
- $isempty = true;
-
-
-}else {
-	
-	echo '<pre>';
-	echo 'Hello ' . $_POST['data'];
-
-	echo '</pre>';
-	}
-
-?>
 
 <?php
 
 	$data = $_POST['data'];
 
-	if($data == "<script>window.location.href='http://localhost:8080/xss_aws/start.php';</script>"){
-		echo '悪意のあるサイトに飛ばせたようだ...<br>';
+	if($data == "<script>window.location.href='./xss_aws/aaaaaaaaaaaaaaaaaaaaaaaaa.php';</script>"){
+		echo '指定されたサイトに飛ばせたようだ...<br>';
 		#aws上に偽サイトを作っておく
 		echo "xss_str{a29yZWRlZmlzaGluZ3NpdGV3b291eW9kZWtpcnVuZQ}";
 		

@@ -3,8 +3,7 @@
 悪意のあるサイトへ誘導するURLを送り付けて機密情報を読み取ることができるみたいだ....</br>
 ※別のサイトはwindow.location.href='' で指定のサイトに飛ばせるようだ<br>
 
-<h4>指定したサイト: </h4>
-<br>※URLを暗号化して気付かれないようにしてくる場合が多い。<br>
+<h4>指定したサイト:'./xss_aws/aaaaaaaaaaaaaaaaaaaaaaaaa.php'</h4>
 
 
 <br>
