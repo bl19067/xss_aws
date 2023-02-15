@@ -11,7 +11,7 @@
     <img src="./images/alert_example.png" alt="script例">
     <br>
     <form method="POST" action="./test1_res.php">
-       <input type="text" name="data"/>
+       <input type="text" size="15" name="data"/>
        <input type="submit" value="送信"/>
    </form>
 </body>
