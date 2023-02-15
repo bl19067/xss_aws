@@ -34,10 +34,10 @@ if(!array_key_exists ("data", $_POST) || $_POST['data'] == NULL || $_POST['data'
 	else{
 		echo "Wrong....";
 		echo "<br>";
-		echo '<a href="18.181.193.86/xss_aws/test3_req.php">やり直す</a>';
+		echo '<a href="http://54.199.54.161/xss_aws/test3_req.php">やり直す</a>';
 	}
 	?>
 
 <br>
-<a href="http://18.181.193.86/xss_aws/start.php">問題選択へ戻る</a>	
+<a href="http://54.199.54.161/xss_aws/start.php">問題選択へ戻る</a>	
 </html>
